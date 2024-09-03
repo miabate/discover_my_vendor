@@ -225,18 +225,18 @@ h6 {
 .header {
   color: var(--default-color);
   background-color: var(--background-color);
-  padding: 20px 0;
+  padding: 0px 0;
   transition: all 0.5s;
   z-index: 997;
 }
 
 .header .logo {
-  line-height: 1;
+  line-height: 6;
 }
 
 .header .logo img {
-  max-height: 32px;
-  margin-right: 8px;
+  max-height: 70px;
+  margin-right: 0;
 }
 
 .header .logo h1 {
@@ -248,6 +248,13 @@ h6 {
 
 .scrolled .header {
   box-shadow: 0px 0 18px color-mix(in srgb, var(--default-color), transparent 85%);
+}
+
+.logo .sitename-img {
+  max-height: 120px; /* Adjust the size of the name image */
+  margin-left: 1px; /* Space between the logo and the name image */
+  height: 300px; 
+  width: auto; 
 }
 
 /*--------------------------------------------------------------
